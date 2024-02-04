@@ -445,7 +445,6 @@ h6 {
     overflow: hidden;
 }
 
-.portfolio-cover-container {}
 
 .portfolio-cover-text {
     color: #f4f4fd;
@@ -463,11 +462,12 @@ h6 {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.portfolio-itom:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .portfolio-itom:hover .portfolio-cover-text {
     transform: translateY(0);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    transition: background-color 250ms ease;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ======footer======== */
